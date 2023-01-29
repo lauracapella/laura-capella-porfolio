@@ -1,11 +1,18 @@
-$primary-color: #ffd700;
+$primary-color: #d9ff02;
 
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue Light';
   src: url('./assets/fonts/HelveticaNeueUltraLight.ttf') format('ttf');
 }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/HelveticaNeueMediumExtended.ttf') format('ttf');
+}
+
+
 
 /* @font-face {
   font-family: 'La Belle Aurore';

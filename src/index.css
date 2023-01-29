@@ -5,9 +5,11 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif' ;
-  color: #444;
-  background-color: #02243;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif' ;
+  color: #3501ba;
+  background-color: #3501ba;
+  overflow: hidden;
+  display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -20,6 +20,7 @@ const Home = () => {
  return(
      <>
      <div className="container home-page">
+     <Logo />
         <div className="text-zone">
             <h1>
             <span className={letterClass}>H</span>
@@ -42,11 +43,12 @@ const Home = () => {
             <br />
                 Html5 | CSS3 | JavaScript | React | Vue
                 <br />
+                <br />
                 - This portfolio is underconstruction -
             </h2> 
             <Link to="/contact" className='flat-button'>Contact Me</Link>
         </div>
-        <Logo />
+        
      </div>
      <Loader type='pacman'/>
      </>

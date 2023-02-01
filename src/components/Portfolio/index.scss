@@ -21,7 +21,7 @@
     .image-box {
         position: relative;
         flex: 1 1 33%;
-        height: 300px;
+        height: 220px;
         overflow: hidden;
         max-width: calc(33% - 10px);
         
@@ -40,15 +40,15 @@
             z-index: 3;
             padding: 10px 20px;
             transition: cubic-bezier(0.645, 0.045, 0.355, 1);
-            background-color: black;
+            background-color: #d9ff02;
             bottom: -50px;
         }
 
         .title {
             margin-bottom: 0;
             margin-top: 0;
-            color: white;
-            font-size: 20px;
+            color: #3501ba;
+            font-size:18px;
             font-weight: 500;
             line-height: 24px;
         }
@@ -56,25 +56,26 @@
         .description {
             font-size: 14px;
             margin-bottom: 5px;
-            color: white;
+            color: #3501ba;;
             font-weight: 500;
         }
 
         .portfolio-url {
             font-size: 14px;
             margin-bottom: 5px;
-            color: white;
+            color: #3501ba;;
             font-weight: 800;
-            text-decoration: none;
+            text-decoration: underline;
 
         }
         .portfolio-url:hover{
-            color: aqua;
+            content: '';
+            text-decoration: line-through;
         }
 
         &:after {
             content: '';
-            background-color: black;
+            background-color: #d9ff02;
             position: absolute;
             left: 0;
             right: 0;
@@ -98,3 +99,23 @@
 
    
 }
+
+@media screen and (max-width: 1200px) {
+   .container .portfolio-page {
+       width: 100%;
+       padding: 20px;
+       box-sizing: border-box;
+
+       h1 .page-title {
+           margin-left: 20px;
+           margin-top: 20px;
+       }
+
+       .image-box {
+           height: 200px;
+           max-width: calc(50% - 10px);
+       }
+
+   }
+    
+  }

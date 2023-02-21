@@ -68,7 +68,7 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue';
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid #d9ff02;
@@ -80,6 +80,18 @@ h2 {
     &:hover{
         background:#d9ff02;
         color: #333333;
+
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Helvetica Neue';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #d9ff02;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
     }
 }
 

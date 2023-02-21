@@ -1,33 +1,33 @@
 {
     "portfolio":[
         {
-            "cover": "/portfolio/1/1.png",
+            "cover": "/portfolio/1/1.jpg",
+            "title": "Art Adventurer",
+            "description": "React | JSX | Html | Css | Framer Motion",
+            "url": "https://london-museums-quiz.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/2/1.jpg",
             "title": "Mr. Meals",
             "description": "React | JSX | Bootstrap",
-            "url": "#"
+            "url": "https://nutricion-sandy.vercel.app/"
         },
         {
-            "cover": "/portfolio/2/1.png",
-            "title": "Bookmarks",
-            "description": "Html 5 | CSS 3 | Bootstrap",
-            "url": "#"
-        },
-        {
-            "cover": "/portfolio/3/1.png",
-            "title": "Spotify Clone",
+            "cover": "/portfolio/3/1.jpg",
+            "title": "Circle Website",
             "description": "Html 5 | CSS 3",
-            "url": "#"
+            "url": "https://laguapacomunicacion.com/circle/index.html"
         },
         {
-            "cover": "/portfolio/4/1.png",
-            "title": "Circle",
-            "description": "Html 5 | CSS 3 | Bootstrap",
-            "url": "#"
-        },
-        {
-            "cover": "/portfolio/5/1.png",
+            "cover": "/portfolio/4/1.jpg",
             "title": "Task App",
             "description": "Vue | Tailwind",
+            "url": "https://task-app-vue.vercel.app/auth/login"
+        },
+        {
+            "cover": "/portfolio/5/1.jpg",
+            "title": "Web for everybody",
+            "description": "Comming soon...",
             "url": "#"
         }
        

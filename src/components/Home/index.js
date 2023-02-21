@@ -44,7 +44,6 @@ const Home = () => {
                 Html5 | CSS3 | JavaScript | React | Vue
                 <br />
                 <br />
-                - This portfolio is underconstruction -
             </h2> 
             <Link to="/contact" className='flat-button'>Contact Me</Link>
         </div>

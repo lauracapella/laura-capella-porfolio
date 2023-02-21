@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
+import Logo from "../Home/Logo"
+import './index.scss';
+
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -12,6 +15,7 @@ const About = () => {
     return(
     <>
     <div className="container about-page">
+    <Logo />
         <div className="text-zone">
             <h1>
                 <AnimatedLetters

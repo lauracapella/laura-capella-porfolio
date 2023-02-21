@@ -32,7 +32,7 @@ const Portfolio = () =>{
                             <div className='content'>
                                 <p className='title'>{port.title}</p>
                                 <h4 className='description'>{port.description}</h4>
-                                <a className='portfolio-url' href={port.url}>See project</a>
+                                <a className='portfolio-url' href={port.url} target="_blank">See project</a>
                             </div>
                         </div>
                     )
